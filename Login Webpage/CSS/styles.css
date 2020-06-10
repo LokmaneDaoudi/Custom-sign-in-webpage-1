@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&family=Roboto&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    background-color: #f8f8fa;
+    background-image: url("/Users/walid/Desktop/Practice/Login Webpage/Images/cloudy-day.png");
+}
+.container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:800px;
+    height:450px;
+    background-color: white;
+    border-radius:25px;
+    display:flex;
+    align-items: center;
+    
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom:15px;
+    font-size: 20pt;
+    text-align: center;
+}
+img{
+    position: relative;
+    top:2px;
+    width:500px;
+    height:450px;
+    border-radius: 25px 0px 0px 26px;
+    margin: 0 5px 0 0;
+}
+.field{
+    text-align: center;
+}
+input{
+    position: relative;
+    text-align: center;
+    width:200px;
+    height: 40px;
+    border-radius: 25px;
+    border:1px solid grey;
+    margin:5px;
+    outline: none;
+  
+    
+}
+
+#login_btn{
+    width:2.5cm;
+    height:1cm;
+    border:none;
+    border-radius: 25px;
+    background-color: greenyellow;
+    font-family:'lato',sans-serif;
+    font-weight: bold;
+    font-size:13pt;
+    margin: 10px 10px 15px 10px;
+    transition: 0.5s;
+    outline:none;
+    cursor:pointer;
+}
+#login_btn:hover{
+    opacity:0.8;
+}
+.small_text{
+    text-decoration: none;
+    font-size: 8pt;
+    color:gray;
+    transition: 0.5s ease;
+    
+}
+.small_text:hover{
+    color: darkgrey;
+}
+#create_acc{
+    position: relative;
+    top:70px;
+    text-decoration: none;
+    font-size: 8pt;
+    color:gray;
+    transition: 0.5s ease;
+}
+#create_acc:hover{
+    color: darkgrey;
+} 
+/*Icon*/
+#user_icon{
+    opacity: 50%;
+    position: absolute;
+    left:71%;
+    top:36%;
+    z-index: 2;
+    
+}
+
+#lock_icon{
+    opacity: 50%;
+    position: absolute;
+    left:71%;
+    top:47%;
+    z-index: 2;
+}
